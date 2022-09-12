@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  background-color: darkgray;
+}
+
+header {
+  margin: 2vh;
+  border: 1px solid black;
+  padding: 1vh;
+  color: black;
+  font-size: larger;
+  height: 10vh;
+  background-color: #f8f8ff;
+}
+
+main {
+  margin: 10px;
+  border: 1px solid #0f4c5c;
+  padding: 5px;
+  color: #0f4c5c;
+  display: flex;
+  background-color: #f8f8ff;
+  height: fit-content;
+}
+
+section {
+  margin: 10px;
+  border: 1px solid #fb8b24;
+  padding: 5px;
+  color: #fb8b24;
+  width: 75%;
+  height: fit-content;
+  background-color: #f8f8ff;
+  align-items: center;
+}
+
+article {
+  margin: 5vh;
+  border: 1px solid #fb8b24;
+  padding: 5px;
+  height: 150px;
+  color: #498467;
+  background-color: #f0ffff;
+}
+
+aside {
+  margin: 10px;
+  border: 1px solid #9a031e;
+  padding: 5px;
+  color: #9a031e;
+  width: 20%;
+  background-color: #e6e6fa;
+  align-items: center;
+}
+
+footer {
+  margin: 10px;
+  border: 1px solid red;
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+
+.abertura {
+  height: 300px;
+  width: 500px;
+
+}
+.introducao {
+ text-align: center;
+ height: fit-content;
+}
+.diagnostico {
+ text-align: center;
+ height: fit-content;
+}
+.conteudo01 {
+ text-align: center;
+ height: fit-content;
+}
+.conteudo02 {
+ text-align: justify;
+ height: fit-content;
+}
+.aprofundamento {
+ text-align: center;
+ height: fit-content;
+}
+
+.fechamento {
+    height: 200px;
+}
+img {
+    width: auto; 
+    max-height: 100%; 
+   }
+
+.aside01 {
+    text-align: justify;
+    height: fit-content;
+}
+.podcast {
+    margin-top: 300px;
+}
+.quote {
+    width: 250px;
+    height: fit-content;
+    margin-top: 350%;
+     
+}
